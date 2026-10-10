@@ -1,27 +1,32 @@
 # Site spec
 
-Written by the Analyst from: interview. This is the spec of the sample person, Ada Example, who is fictional. The Analyst role replaces it with yours.
+Written by the Analyst from: LinkedIn text.
 
 ## Who
-Ada Example, frontend developer who likes fast, accessible web pages.
+Ennio Maresca, Performance Marketing Specialist.
+
+## Goal
+Connect with the marketing and growth community.
 
 ## For whom
-Recruiters and teams hiring a junior frontend developer.
+(a guess) Peers, founders, and fellow marketers in the growth and digital marketing community.
 
 ## What a visitor should do
-Look at the projects on GitHub, then write an email.
+(a guess) Connect on LinkedIn or write an email to start a conversation.
 
 ## Language
 English (en).
 
 ## Sections
+- First screen: the pitch, availability, Milan, Italy, and spoken languages (Italian native, English C1).
 - Bio: two paragraphs.
-- Projects: two.
-- Links: GitHub, LinkedIn, email.
-- CV: experience, education and skills.
+- Projects: none yet.
+- Links: LinkedIn and email.
+- CV: experience (3 roles), education (2 degrees at Bocconi), and skills.
+- Certifications and events: 1 workshop event from DevFest Milano 2026.
 
 ## Left out on purpose
-Nothing.
+Projects section, as there are no GitHub project repositories to link yet.
 
 ## Later
-A blog, as an optional module.
+nothing yet

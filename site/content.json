@@ -1,79 +1,100 @@
 {
   "$schema": "./content.schema.json",
   "language": "en",
-  "name": "Ada Example",
-  "headline": "Frontend developer who likes fast, accessible web pages",
+  "name": "Ennio Maresca",
+  "headline": "Performance Marketing Specialist",
   "photo": {
-    "src": "assets/avatar.svg",
-    "alt": "Ada Example's avatar: a simple drawing of a head and shoulders in two shades of grey"
+    "src": "assets/photo.webp",
+    "alt": "Ennio Maresca smiling in a navy suit, tie and glasses with arms crossed"
   },
-  "pitch": "I build small, fast websites that everyone can use, and I explain every choice in plain words.",
-  "highlights": [
-    { "text": "Every page I look after scores 100 for accessibility in Lighthouse" },
-    { "text": "Five years of teaching maths: I make technical choices easy to follow" },
-    { "text": "Two open-source projects on GitHub", "url": "https://github.com/octocat" }
-  ],
+  "pitch": "I run multi-channel paid acquisition campaigns and build new marketing channels that drive revenue.",
   "availability": {
-    "text": "Open to junior frontend roles from January 2027.",
+    "text": "Open to connecting with the marketing and growth community.",
     "actionLabel": "Write to me",
-    "actionUrl": "mailto:ada@example.com"
+    "actionUrl": "mailto:marescaennio@gmail.com"
   },
-  "location": { "city": "Milan", "country": "Italy", "timeZone": "Europe/Rome" },
+  "location": {
+    "city": "Milan",
+    "country": "Italy",
+    "timeZone": "Europe/Rome"
+  },
   "languages": [
-    { "name": "English", "level": "native" },
-    { "name": "Italian", "level": "B2" }
+    { "name": "Italian", "level": "native" },
+    { "name": "English", "level": "C1" }
   ],
   "bio": [
-    "I build small, fast websites and the tools around them. Before I wrote code, I taught maths, so I still enjoy explaining things simply.",
-    "This is a sample portfolio of a fictional person. Replace it with your own story."
-  ],
-  "projects": [
-    {
-      "title": "Tide Tables",
-      "description": "A tiny web app that shows today's tides for a chosen harbour, built with plain HTML, CSS and JavaScript.",
-      "github": "https://github.com/octocat/Hello-World"
-    },
-    {
-      "title": "Reading Log",
-      "description": "A static site that lists the books I read, generated from one JSON file.",
-      "github": "https://github.com/octocat/Spoon-Knife",
-      "url": "https://octocat.github.io/Spoon-Knife/"
-    }
+    "I love to build new acquisition channels and run paid campaigns end-to-end: from creative angles and scriptwriting to tracking, analytics, and performance measurement.",
+    "I enjoy seeing marketing initiatives produce real revenue for the business, combining technical tracking setups with experimentation across paid channels."
   ],
   "links": [
-    { "label": "GitHub", "url": "https://github.com/octocat" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ada-example" },
-    { "label": "Email", "url": "mailto:ada@example.com" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/enniomaresca/?locale=en" },
+    { "label": "Email", "url": "mailto:marescaennio@gmail.com" }
   ],
   "cv": {
     "experience": [
       {
-        "role": "Junior Frontend Developer",
-        "organization": "Example Studio",
-        "start": "2024",
+        "role": "Performance Marketing Specialist",
+        "organization": "Real Estate Scaleup",
+        "start": "2023",
         "end": "present",
-        "summary": "Build and maintain marketing sites; brought every page to a Lighthouse accessibility score of 100."
+        "summary": "Scaled paid function from a one-person operation to a structured team, leading paid acquisition across Google and Meta."
       },
       {
-        "role": "Maths Teacher",
-        "organization": "Example Secondary School",
-        "start": "2019",
-        "end": "2024",
-        "summary": "Taught maths to students aged 11 to 16 and ran the after-school coding club."
+        "role": "Growth Marketer",
+        "organization": "247x",
+        "start": "2022-10",
+        "end": "2023-06",
+        "summary": "Managed B2B and SaaS acquisition across Meta, Google, and LinkedIn Ads with end-to-end GA4/GTM analytics."
+      },
+      {
+        "role": "Digital Marketer",
+        "organization": "Forest Valley, Edwine & Regolo Studio",
+        "start": "2020",
+        "end": "2022",
+        "summary": "Managed paid advertising, SEO, and social media campaigns across startups and SMEs."
       }
     ],
     "education": [
       {
-        "title": "Web Development Bootcamp",
-        "organization": "Example Academy",
-        "year": "2023"
+        "title": "MSc in Marketing Management",
+        "organization": "Bocconi University",
+        "year": "2021"
       },
       {
-        "title": "BSc Mathematics",
-        "organization": "Example University",
+        "title": "BSc in Economics & Management for Arts, Culture and Communication",
+        "organization": "Bocconi University",
         "year": "2018"
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git"]
-  }
+    "skills": [
+      "Meta Ads",
+      "Google Ads",
+      "LinkedIn Ads",
+      "GA4",
+      "GTM",
+      "Looker Studio",
+      "CRO",
+      "A/B Testing",
+      "AI Workflows",
+      "HTML/CSS/JS"
+    ]
+  },
+  "builtAt": {
+    "event": "DevFest Milano 2026",
+    "date": "2026-10-10"
+  },
+  "events": [
+    {
+      "name": "DevFest Milano 2026",
+      "date": "2026-10-10",
+      "city": "Milan",
+      "role": "attendee",
+      "sessions": [
+        {
+          "type": "workshop",
+          "title": "AI-Native Web Development, Hands-On"
+        }
+      ]
+    }
+  ]
 }

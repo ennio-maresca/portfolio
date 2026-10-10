@@ -1,63 +1,62 @@
 # Design brief
 
-Source: the default brief that ships with the template (no Stitch design).
-Mood: calm, warm, precise. A quiet page like a well-set book: the person's words and work come first, not the decoration.
+Source: Stitch HTML
+Mood: warm, curious, precise. Minimal and airy single-column layout with clean lines, refined typography, and subtle juggling ring dividers.
 
 ## Style
 
-- Style: Classic.
-- Feel: calm, warm, precise.
-- Personal detail: none. The default design has no personal detail; the Designer's interview gives you yours.
-- Motion: almost none. When the visitor prefers reduced motion, nothing moves.
+- Style: Modern.
+- Feel: warm, curious, precise.
+- Personal detail: three small subtle juggling rings as a divider between sections.
+- Motion: subtle and short, 150 to 300 ms: things settle into place, nothing bounces. When the visitor prefers reduced motion, nothing moves.
 
 ## Colours
 
 | Token | Light | Dark | Used for |
 |---|---|---|---|
-| background | #f7f3ec | #1b1714 | page background: warm paper |
-| surface | #eee7dc | #26201c | the photo's backdrop, the rare box |
-| text | #231e1a | #eee6dc | headings and body text |
-| muted | #675c52 | #b3a698 | headline under the name, dates, captions, hairlines |
-| accent | #a8402f | #f0937d | links, focus ring: ink red |
-| on-accent | #ffffff | #1b1714 | text on an accent-coloured button |
+| background | #f9f9f8 | #111318 | page background |
+| surface | #eeeeed | #1b1e26 | cards, tags |
+| text | #1a1c1c | #e4e6e8 | headings and body text |
+| muted | #5d5e66 | #a3a6b4 | headline under the name, dates, section headings |
+| accent | #0037b0 | #7c9eff | links, focus ring, buttons |
+| on-accent | #ffffff | #111318 | text on an accent button |
 
 ## Type
 
 | Role | Font | Size | Weight |
 |---|---|---|---|
-| headings | "Newsreader", Georgia, "Times New Roman", serif | name 2.75rem, section 1.5rem, project 1.25rem | 500 |
-| body | "Literata", Georgia, "Times New Roman", serif | 1.0625rem, line height 1.65 | 400 |
-| details | "Literata", Georgia, "Times New Roman", serif | dates 0.9375rem | 400 |
+| headings | "Geist", system-ui, sans-serif | name 2rem, section 1.25rem, role 1.125rem | 500 |
+| body | "Geist", system-ui, sans-serif | 1rem, line height 1.6 | 400 |
+| details | "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace | 0.875rem, for dates and labels | 400 |
 
 ## Shapes
 
-- Corner radius: none; only the photo is round.
-- Borders: hairlines, 1px in the muted colour thinned out, between the sections and between the projects.
+- Corner radius: none on lists, 0.25rem on tags, photo is round.
+- Borders: thin hairline dividers between list items and sections, 1px in the muted colour thinned out.
 - Shadows: none.
 
 ## Layout
 
-- One narrow column, at most 38rem wide, centred, text flush left, with 1.25rem space at the sides on phones.
-- 4rem between sections, with a hairline between them; 1.5rem between items in a list.
-- Projects: a list, one below the other, separated by hairlines; no cards and no columns.
+- Page width: at most 42.5rem (680px), centered, with 1.5rem space at the sides on phones.
+- Space between sections: 4rem; 1rem between items in a list.
+- Experience & sessions: borderless lists, one below the other; no heavy cards or multiple columns.
 
 ## Components
 
-- Links: accent colour, underlined a little below the text; the underline disappears on hover, and keyboard focus shows a 2px accent ring.
-- Projects: title as a project heading, one sentence, then the links to the code and the live site as text links.
-- Skills: one plain line, separated by commas.
-- Section headings: plain text in the heading font; the hairline above the section is the only line.
-- The headline under the name: in the heading font's italic, in the muted colour.
+- Links: accent colour, underlined on hover, 2px accent focus ring on keyboard navigation.
+- Projects: borderless list with title, description, and link tags.
+- Skills: plain text list in muted colour separated by commas or bullets.
+- Section headings: medium weight in heading font, clean and quiet.
 
 ## Signature
 
-- Move: Typographic polish
-- Guide: guides/visual-design/improve-text-layout-and-legibility.md
-- Where: every heading and paragraph: headings in even lines, no lonely last word in a paragraph, old-style numbers in the text.
+- Move: Staggered entrance on load
+- Guide: guides/ui-behaviors/dynamic-sibling-animations.md
+- Where: the hero bio elements settle smoothly into place one after another on initial load.
 
 ## Sections
 
-1. `bio`: the name, the headline and the bio.
-2. `projects`: the sample person looks for a job, so the projects lead.
-3. `links`: GitHub, LinkedIn and email.
-4. `cv`: experience, education and skills.
+1. `bio`: the name, headline, pitch, availability, location, languages and bio paragraphs.
+2. `cv`: the goal is connecting with the marketing community and peers, leading with work experience, education, and skills.
+3. `events`: workshop session attended at DevFest Milano.
+4. `links`: LinkedIn and email links.
